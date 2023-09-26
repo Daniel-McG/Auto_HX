@@ -1,5 +1,5 @@
 # Auto_HX
-A webapp to size heat exchangers from the output of Aspen Plus using Python and Flask
+A webapp to get a rough estimate of a heat exchanger area from the output of Aspen Plus using Python and Flask
 
 TODO:
 1. Develop information flow diagram
