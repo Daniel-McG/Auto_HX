@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selecting Heat Exchangers</title>
+</head>
+<body>
+    <form method="post">
+        <select name="HXunits" multiple>
+            {% for item in equipment_list %}
+                <option value="{{ item }}">{{ item }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
