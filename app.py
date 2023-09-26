@@ -16,6 +16,7 @@ def homepage():
         streams_df = pd.read_csv(streams_file,skiprows=[0])
         streams_df = streams_df.transpose()
         print(streams_df.head(50))
+        return streams_df.to_html()
 
 if __name__ == "__main__":
     app.run()
