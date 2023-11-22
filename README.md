@@ -1,6 +1,10 @@
 # Auto_HX
 A webapp to get a rough estimate of a heat exchanger area from the output of Aspen Plus using Python and Flask
 
+Warning: This project is currently under development and is not functional
+
+Current Stage: Development
+
 TODO:
 1. Develop information flow diagram
 2. Write LMTD calc
